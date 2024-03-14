@@ -1,0 +1,9 @@
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+
+'hardcoded, where everthis runs from the browser will work for current CCC, but report will run using EMC company code. 
+f.Global.General.CallWrapperSync("51","EMC!*!BMR060E")
+
+Program.Sub.Main.End
